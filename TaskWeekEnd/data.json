@@ -1,0 +1,30 @@
+[
+    {
+      "name": "name",
+      "intialBalance": 456,
+      "accNumber": 0,
+      "remainigBalance": 500,
+      "operations": [
+        {
+          "_": ["addOperation"],
+          "accNumber": 0,
+          "acc-number": 0,
+          "opType": "deposit",
+          "op-type": "deposit",
+          "val": 500,
+          "$0": "index",
+          "date": 1647157433173
+        },
+        {
+          "_": ["addOperation"],
+          "accNumber": 0,
+          "acc-number": 0,
+          "opType": "deposit",
+          "op-type": "deposit",
+          "val": 500,
+          "$0": "index",
+          "date": 1647157497212
+        }
+      ]
+    }
+  ]

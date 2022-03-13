@@ -1,0 +1,69 @@
+body {
+    font-family: "primary";
+    margin: 0;
+    background-color: beige;
+  }
+  @font-face {
+    font-family: "primary";
+    src: url(/fonts/helveticaneue.ttf);
+  }
+  .navbar {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #554f50;
+  }
+  
+  .navheader {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fc5c65;
+  }
+  .navlinks {
+    text-decoration: none;
+    margin: 10px;
+  }
+  .navlink {
+    display: inline-block;
+    margin-inline: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .navlink:hover {
+    color: #fc5c65;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 150px 0px;
+  }
+  .newscard {
+    width: 350px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 0px;
+    margin: 10px;
+  }
+  .newscard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .img-placeholder {
+    width: 350px;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/placeholder.png");
+  }
+  .card-content {
+    padding: 20px;
+    text-overflow: ellipsis;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .error {
+    color: #fa2a34;
+  }
